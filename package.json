@@ -7,24 +7,24 @@
 		"test": "mocha tests/tests*"
 	},
 	"dependencies": {
-		"express": "4.13.x",
+		"express": "4.14.0",
 		"cfenv": "1.0.x",
-		"phantom": "~2.0.4",
+		"phantom": "~2.1.14",
 		"atob": "~2.0.0",
-		"body-parser" : "*",
-		"express-xml-bodyparser" : "*",
-		"multer" : "*"
+		"body-parser": "*",
+		"express-xml-bodyparser": "*",
+		"multer": "*"
 	},
 	"devDependencies": {
-	      "mocha": "*",
-	      "should": "8.2.2",
-	      "supertest" : "*"
+		"mocha": "*",
+		"should": "10.0.0",
+		"supertest": "*"
 	},
 	"repository": {
-	    "type": "git",
-	    "url": "https://github.com/cdaniel/svg2png.git"
+		"type": "git",
+		"url": "https://github.com/cdaniel/svg2png.git"
 	},
 	"engines": {
 		"node": "4.x"
-	} 
+	}
 }
