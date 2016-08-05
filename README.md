@@ -1,9 +1,9 @@
 # svg2png
+
+[![Build Status](https://travis-ci.org/cdaniel/svg2png.svg?branch=master)](https://travis-ci.org/cdaniel/svg2png)
+
 A service that converts svg to png
 
-# Node.js Starter Overview
-
-The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.
 
 ## Run the app locally
 
