@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" class="map" width="1280" height="800" id="svg">
+                <style type="text/css">
+                    .map {
+                        font-family : sans-serif;
+                    }
+                    .node {
+                        font-size : 11px;
+                    }
+                </style>
+            <defs>
+                <marker id="arrow" orient="auto" markerWidth="6" markerHeight="8" refX="0.1" refY="2">
+                     <path d="M0,0 V4 L2,2 Z" fill="grey"/>
+                 </marker>
+                <marker id="actionarrow" orient="auto" markerWidth="6" markerHeight="8" refX="10" refY="3">
+                    <path d="M0,0 V6 L5,3 Z" fill="green"/>
+                </marker>
+                <!-- glow -->
+                <filter id="glow" x="-2%" y="-2%" width="104%" height="104%">
+                    <feGaussianBlur stdDeviation="2" result="glow2"/>
+                    <feMerge>
+                        <feMergeNode in="glow2"/>
+                        <feMergeNode in="glow2"/>
+                        <feMergeNode in="glow2"/>
+                        <feMergeNode in="glow2"/>
+                        <feMergeNode in="glow2"/>
+                    </feMerge>
+</filter>
+            </defs>
+            <!-- white background -->
+            <rect x="0" y="0" width="100%" height="100%" fill="white" style="stroke-width: 0px;"/>
+            <text text-anchor="right" style="" y="20" x="1000">created at wardleymaps.com</text>
+        <text style="font-weight: bold;" y="20" x="40">test</text><g transform="translate(20,70)"><g class="x axis" transform="translate(0,710)"><path d="M0,0L1240,0" style="stroke: grey; stroke-width: 2px; marker-end: url(#arrow);"/><g class="label" transform="translate(29.523809523809526,15)"><text>Genesis</text></g><g class="label" transform="translate(324.76190476190476,15)"><text>Custom built</text></g><g class="label" transform="translate(620,15)"><text>Product(or rental)</text></g><g class="label" transform="translate(915.2380952380953,15)"><text>Commodity/Utility</text></g></g><g class="evolution-marker"><path transform="translate(284.76190476190476,0)" d="M0,710L0,0" style="stroke: grey; stroke-width: 1px; stroke-dasharray: 1,5;"/><path transform="translate(580,0)" d="M0,710L0,0" style="stroke: grey; stroke-width: 1px; stroke-dasharray: 1,5;"/><path transform="translate(875.2380952380953,0)" d="M0,710L0,0" style="stroke: grey; stroke-width: 1px; stroke-dasharray: 1,5;"/></g><g class="y axis"><path d="M0,710L0,0" style="stroke: grey; stroke-width: 2px; marker-end: url(#arrow);"/></g><path class="connection" d="M472.5340246273493,123.67167919799498L470.12313674659754,221.54135338345864" style="stroke: grey; stroke-width: 2px;"/><g class="nodes"><g class="node userneed"><circle r="10px" cx="472.5340246273493" cy="123.67167919799498" style="fill: silver; stroke: black; stroke-width: 4px;"/><text style="filter: url(#glow);fill:#FFFFFF;" transform="translate(484.5340246273493,115.67167919799498)">user need!</text><text transform="translate(484.5340246273493,115.67167919799498)">user need!</text></g><g class="node"><circle r="10px" cx="470.12313674659754" cy="221.54135338345864" style="fill: silver; stroke: black; stroke-width: 2px;"/><text style="filter: url(#glow);fill:#FFFFFF;" transform="translate(482.12313674659754,213.54135338345864)">not a user need!</text><text transform="translate(482.12313674659754,213.54135338345864)">not a user need!</text></g><g class="node userneed"><circle r="10px" cx="22.28125" cy="636.3375" style="fill: silver; stroke: black; stroke-width: 4px;"/><text style="filter: url(#glow);fill:#FFFFFF;" transform="translate(34.28125,628.3375)">user need</text><text transform="translate(34.28125,628.3375)">user need</text></g><g class="node external"><circle r="10px" cx="22.28125" cy="662.9625" style="fill: white; stroke: black; stroke-width: 2px;"/><text style="filter: url(#glow);fill:#FFFFFF;" transform="translate(34.28125,654.9625)">outsourced component</text><text transform="translate(34.28125,654.9625)">outsourced component</text></g><g class="node"><circle r="10px" cx="22.28125" cy="689.5875" style="fill: silver; stroke: black; stroke-width: 2px;"/><text style="filter: url(#glow);fill:#FFFFFF;" transform="translate(34.28125,681.5875)">internal component</text><text transform="translate(34.28125,681.5875)">internal component</text></g></g></g></svg>

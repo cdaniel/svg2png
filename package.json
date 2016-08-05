@@ -1,0 +1,30 @@
+{
+	"name": "SVG2PNG",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node lib/app.js",
+		"test": "mocha tests/tests*"
+	},
+	"dependencies": {
+		"express": "4.13.x",
+		"cfenv": "1.0.x",
+		"phantom": "~2.0.4",
+		"atob": "~2.0.0",
+		"body-parser" : "*",
+		"express-xml-bodyparser" : "*",
+		"multer" : "*"
+	},
+	"devDependencies": {
+	      "mocha": "*",
+	      "should": "8.2.2",
+	      "supertest" : "*"
+	},
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/cdaniel/svg2png.git"
+	},
+	"engines": {
+		"node": "4.x"
+	} 
+}
