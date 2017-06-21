@@ -1,8 +1,8 @@
-# svg2png
+# svg2png  - NO LONGER MAINTAINED
 
 [![Build Status](https://travis-ci.org/cdaniel/svg2png.svg?branch=master)](https://travis-ci.org/cdaniel/svg2png)
 
-A service that converts svg to png
+A service that converts svg to png.
 
 
 ## Run the app locally
