@@ -9,7 +9,7 @@
 	"dependencies": {
 		"express": "4.14.0",
 		"cfenv": "1.0.x",
-		"phantom": "~2.1.14",
+		"phantom": "~3.0.0",
 		"atob": "~2.0.0",
 		"body-parser": "*",
 		"express-xml-bodyparser": "*",
